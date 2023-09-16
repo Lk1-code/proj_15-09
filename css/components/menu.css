@@ -1,0 +1,114 @@
+
+nav{
+
+    color: white;
+    background-color:#008000 ;
+    display: flex;
+    list-style: none;
+    align-self: center;
+    gap: 2rem;
+    width: 100%;
+    align-items: center;
+    border: 1px solid black;
+
+}
+nav h1{
+    color: #fff;
+}
+nav img {
+  width: 40px;
+  align-self: center;
+  margin-left: 1rem;
+}
+nav h1{
+    font-size: 2rem;
+}
+nav ul{
+    padding-left: 800px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 10px 12px;
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+    background-color: #00b300;
+    border-radius: 2px;
+}
+@media screen and (max-width: 1080px){
+    nav{
+        width: 1080px;
+    }
+    nav ul{
+        padding-left: 150px ;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav{
+        gap: 1rem;
+    }
+    nav ul{
+        padding-left: 100px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        display: block;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 10px 12px;
+        text-transform: uppercase;
+    }
+}
+@media screen and (max-width: 425px){
+    nav{
+        width: 420px;
+        gap: 20px;
+    }
+    nav ul{
+        padding-left: 10px;
+    }
+    nav h1{
+        font-size: 15px;
+    }
+    nav img{
+        width: 20px;
+    }
+    nav ul li a{
+        font-size: 12px;
+        font-weight: 600;
+    }  
+}
+@media screen and (max-width: 375px){
+
+    nav{
+        width: 375px;
+        gap: 10px;
+    }
+    nav ul{
+        padding-left: 10px;
+    }
+    nav h1{
+        font-size: 12px;
+    }
+    nav img{
+        width: 15px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        display:block;
+        font-size: 10px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }  
+}

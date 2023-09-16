@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Open+Sans:ital,wght@1,500;1,800&display=swap');
+body{
+    font-family: 'inter', sans-serif;
+    margin: 0 auto;
+    background-color: #202120;
+    color: #fff;
+}
+.main-page{
+    min-height: 50vh;
+    width: 750px;
+    margin: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: #7f37c9;
+    border-radius: 10px;
+    border: 1px solid black;
+
+    
+}
+#login{
+    margin-left: 120px;
+    padding: 80px 50px 50px 50px;
+    position: relative;
+
+}
+#login-section label{
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+
+}
+#login-section input{
+    width: 440px;
+    height: 20px;
+    border-radius: 2px;
+}
+#login-section #botao{
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #00b300;
+}
+#login-section #botao :hover{
+    background-color:#00ff00;
+}
+a{
+    color: #fff;
+    font-size: 1rem;
+}
+@media screen and (max-width: 425px){
+    .main-page{
+        width: 383px;
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 15px;
+        text-align: left;
+    }
+    #login{
+        padding: 40px;
+        margin-left: 15px;
+    }
+    #login-section input{
+        width: 260px;
+        height: 20px;
+    }
+    #login-section #botao{
+        margin-top: 20px;
+        width: 260px;
+        height: 40px;
+    }
+    a{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 375px){
+    .main-page{
+        width: 332px;
+        margin: 20px;
+        text-align: left;
+    }
+    #login{
+        padding: 20px;
+        margin-left: 15px;
+    }
+    #login-section input{
+        width: 260px;
+        height: 20px;
+    }
+    #login-section #botao{
+        margin-top: 20px;
+        width: 260px;
+        height: 40px;
+    }
+    a{
+        font-size: 13px;
+    }
+}
